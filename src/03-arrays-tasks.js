@@ -423,7 +423,7 @@ function toStringList(arr) {
  */
 function sortCitiesArray(arr) {
   return arr.sort(
-    (a, b) => a.country.localeCompare(b.country) || a.city.localeCompare(b.city)
+    (a, b) => a.country.localeCompare(b.country) || a.city.localeCompare(b.city),
   );
 }
 
