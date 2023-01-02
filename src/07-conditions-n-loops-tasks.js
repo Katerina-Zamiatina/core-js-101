@@ -200,7 +200,7 @@ function findFirstSingleChar(str) {
  *   5, 3, true, true   => '[3, 5]'
  *
  */
-function getIntervalString(a, b, isStartIncluded, isEndIncluded) {
+function getIntervalString(/* a, b, isStartIncluded, isEndIncluded */) {
   throw new Error('Not implemented');
 }
 
